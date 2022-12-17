@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">J A</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#timeline" class="navbar-link" data-nav-link>Timeline of Experience</a>
+          </li>
+
+          <li>
+            <a href="#price" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#news" class="navbar-link" data-nav-link>Hobbies</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Me</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
+            <img src="./assets/images/me.png" width="640" height="840" alt="Bernard Smith" class="img-cover">
+          </figure>
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Who Am I?</p>
+
+            <h1 class="h1 hero-title">I am Jandy S. Arpon</h1>
+            <p> A second year BSIT student at Eastern Visayas State University, 19 years of age. I love playing games and making digital arts because it's my passion since I was a kid</p>
+            
+            
+
+            <ul class="hero-list">
+                <h1 class="h1 hero-title">My Interest</h1>
+
+              <li>
+                <a href="#" class="list-link">
+                <span class="span">Web Development</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Gaming</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="list-link">
+                  <span class="span">Graphic Design</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="exp-list">
+
+              <li class="list-item">
+                <strong class="strong">2</strong>
+
+                <span class="span">
+                  Years of<br>
+                  Experience
+                </span>
+              </li>
+
+              <li class="list-item">
+                <strong class="strong">1</strong>
+
+                <span class="span">
+                  Happy<br>
+                  Customer
+                </span>
+              </li>
+
+            </ul>
+
+            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+              <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio" aria-label="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Works</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/janart.jpg" width="600" height="675" loading="lazy" alt="Magic Art"
+                    class="img-cover">
+                </figure>
+
+                <a href="work2.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Digital Art</h3>
+
+                  <p class="card-text">Autodesk Sketchbook</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/login.jpg" width="600" height="675" loading="lazy" alt="Leo Dandora"
+                    class="img-cover">
+                </figure>
+
+                <a href="work1.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Log In Page</h3>
+
+                  <p class="card-text">HTML&CSS</p>
+
+                </a>
+
+              </div>
+            </li>           
+
+            <li class="scrollbar-item">
+              <div class="card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/bank.jpg" width="600" height="675" loading="lazy" alt="Viva Mercury"
+                    class="img-cover">
+                </figure>
+
+                <a href="work3.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Bank System</h3>
+
+                  <p class="card-text">Python</p>
+
+                </a>
+
+              </div>
+            </li>
+
+            
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills has-before" id="skills" aria-label="skills"
+        style="background-image: url('./assets/images/skills-bg.png')">
+        <div class="container">
+
+          <div class="skills-content">
+
+            <p class="section-subtitle">Skills</p>
+
+            <h2 class="h2 section-title">My Proficiency</h2>
+
+            <p class="section-text">
+              For more than 2 years of hardworks,  I have been accomplishing enough with modern Web Development, new
+              generation web and
+              app programming language.
+            </p>
+
+            <ul class="skills-list">
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Mobile Legends</h3>
+
+                  <data class="skill-value" value="95%">95%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Html/CSs/Python/C</h3>
+
+                  <data class="skill-value" value="80%">80%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="wrapper">
+                  <h3 class="skill-title">Eating</h3>
+
+                  <data class="skill-value" value="90%">90%</data>
+                </div>
+
+                <div class="progress-box">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="skills-banner has-before"></div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TIMELINE
+      -->
+
+      <section class="section timeline" id="timeline" aria-label="timeline">
+        <div class="container">
+
+          <p class="section-subtitle">Timeline of Experience</p>
+
+          <h2 class="h2 section-title">Education</h2>
+
+          <ul class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">August 2021 - Today</h3>
+
+              <p class="item-title">BSIT student at Eastern Visayas State University </p>
+
+              <p class="item-address">Ormoc, City</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">2019-2021</h3>
+
+              <p class="item-title">Graduated Senior Highschool at Ormoc City Senior Highschool </p>
+
+              <p class="item-address">Don Felipe Larrazabal, Ormoc City</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">2016-2018</h3>
+
+              <p class="item-title">Graduate Junior Highschool at Ormoc City Night Highschool</p>
+
+              <p class="item-address">Don Felipe Larrazzabal, Ormoc City</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h3 class="item-period">2009-2015</h3>
+
+              <p class="item-title">Graduated Elementary at Cawit Elementary School </p>
+
+              <p class="item-address">Cawit, Pilar, Cebu</p>
+
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICES
+      -->
+
+      <section class="section pricing" id="price" aria-label="price">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">My</p>
+
+            <h2 class="h2 section-title">Services</h2>
+
+            <p class="section-text">
+              For more than 2 years of hardworks I have been accomplishing enough with modern Web Development, new
+              generation web and
+              app programming language.
+            </p>
+
+          </div>
+
+          <ul class="pricing-list">
+
+            
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="logo-html5" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">HTML Development</h3>
+
+                <data class="card-price" value="400">₱500</data>
+              </div>
+            </li>
+
+            
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="qr-code" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Brand Identity</h3>
+
+                <data class="card-price" value="200">₱2000</data>
+              </div>
+            </li>
+
+            <li>
+              <div class="pricing-card">
+                <ion-icon name="image" aria-hidden="true"></ion-icon>
+
+                <h3 class="card-title">Graphic Design</h3>
+
+                <data class="card-price" value="100">₱1000</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #HOBBIES
+      -->
+
+      <section class="section news" id="news" aria-label="news">
+        <div class="container">
+
+          <p class="section-subtitle">My</p>
+
+          <h2 class="h2 section-title">Hobbies</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/digi.jpeg" width="600" height="675" loading="lazy"
+                    alt="VS Code Gets New JavaScript Debugger" class="img-cover">
+                </figure>
+
+                <a href="hobby1.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-09-02">September 02, 2022</time>
+
+                  <h3 class="h3 card-title">Digital Art</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/mlbb.jpeg" width="600" height="675" loading="lazy"
+                    alt="Javalin Framework for Kotlin and Java Updated" class="img-cover">
+                </figure>
+
+                <a href="hobby2.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-08-17">August 17, 2022</time>
+
+                  <h3 class="h3 card-title">Mobile Legends Bang Bang</h3>
+
+                </a>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="card news-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 675;">
+                  <img src="./assets/images/coc.jpeg" width="600" height="675" loading="lazy"
+                    alt="JavaScript Dominated Open Source in 2022" class="img-cover">
+                </figure>
+
+                <a href="hobby3.html" class="card-content">
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+
+                  <time class="card-text" datetime="2022-07-05">July 05, 2022</time>
+
+                  <h3 class="h3 card-title">Clash of Clans </h3>
+
+                </a>
+
+              </div>
+            </li>
+
+          
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-content">
+
+            <p class="section-subtitle">Contact</p>
+
+            <h2 class="h2 section-title">Get In Touch</h2>
+
+            <p class="section-text">
+              Please fill out the form on this section to contact with me. Or call between 7:00 a.m. and 5:00 p.m.,
+              Monday to
+              Saturday
+            </p>
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  Alta Vista, Ormoc City
+                </address>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+639947250374" class="contact-link">0994 725 0374</a>
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="https://mail.google.com/mail/mu/mp/756/#tl/priority/%5Esmartlabel_personal" class="contact-link">akosijandii@gmail.com</a>
+              </li>
+
+              
+
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <input type="text" name="name" aria-label="name" placeholder="Name" required class="input-field">
+
+            <input type="email" name="email_address" aria-label="email" placeholder="Email" required
+              class="input-field">
+
+            <textarea name="message" aria-label="message" placeholder="Message" required class="input-field"></textarea>
+
+            <button type="submit" class="submit-btn">
+              <span class="span">Submit</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022. All rights reserved by <a href="#" class="copyright-link">Jansnoww</a>
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/superjansnoww?mibextid=ZbWKwL" target="_blank" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/akosijan" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_jansnoww%3Ffbclid%3DIwAR1xVWhprmEj_Bc06E8KdKhgG0k2SLry7zDk1g5yIPduauYfPA7V4EVjQwA&h=AT1GuXIaceajZQNJC1MbtiQVwYjPiWBfQfuXE-vFfOcdUwfbOPB7EkAXZCHHHzeaor_kFpPwPDQFPCJna84iQJzyW_bvRvEOIJrQI4P1FBSyX_G4YpfMuoI9ho_Hmz_Lr3BIFQ" target="_blank" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

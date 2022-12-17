@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<title>Hobby 3</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,600&display=swap');
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background: rgb(158,209,44);
+			background: linear-gradient(90deg, rgba(158,209,44,1) 30%, rgba(0,168,59,1) 72%, rgba(0,212,255,1) 100%);
+			font-family: 'Poppins', sans-serif;
+			width: 100%;
+			min-height: 100vh;
+			display: grid;
+			place-items:  center;
+		}
+		.row{
+			width: 90%;
+			max-width: 1170px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 50px 30px;
+		}
+		.row .left{
+			overflow: hidden;
+		}
+
+		.row .left img{
+			width: 100%;
+			height: 80%;
+			object-fit: cover;
+			border:5px solid black;
+
+		}		
+		}
+		.row .right{
+			display: flex;
+			align-items: center;
+		}
+		.row .right .content{
+			padding-left: 20px;
+
+		}
+		.row .right .content p{	
+			font-size: 16px;
+			line-height: 26px;
+			padding-bottom: 15px;
+		}
+		.row .right .content p span{
+
+			border-top: 2px solid black;	
+		}
+		@media (max-width: 991px){
+			.row .right .content{
+			padding-left: 0;
+			}
+		}
+		@media (max-width: 768px){
+			.row{
+			width: 90%;
+			grid-template-columns: 1fr;
+
+		}
+			.row img{
+				margin-top: 20px;
+			}
+		}
+		.arrow{
+			width: 20px;
+		}
+		p{
+			text-align: justify;
+		}
+		.right .content button{
+			float: right;
+			background: rgb(2,0,36);
+			background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(168,149,0,1) 72%, rgba(0,212,255,1) 99%);
+			height: 40px;
+			width: 100px;
+			cursor: pointer;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+		.right .content button a{
+			text-decoration: none;
+			color: #fff;
+			font-size: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="left">
+			<img src="assets/images/coc.jpeg">
+		</div>
+		<div class="right">
+			<div class="content">
+				<p>
+					<i class='bx bxs-chevrons-right arrow'></i>
+Clash of Clans is a popular mobile strategy game where players build their own villages, train troops to battle other players, and join clans to work together against rival clans. The game features a variety of troops, buildings, and spells for players to collect and upgrade, as well as an ever-changing world map full of challenges. Players are able to compete against each other to earn rewards, leaderboard positions, and bragging rights. The game is free-to-play and can be enjoyed by a wide range of ages.<br><br>
+					<span><i class='bx bxs-calendar'></i>&nbsp;DATE: &nbsp;  &nbsp; July 05, 2022</span>
+				</p>
+				<button>
+					<a href="index.html">Back</a>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

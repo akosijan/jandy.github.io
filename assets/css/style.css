@@ -1,9 +1,5 @@
 :root {
 
-  /** 
-   * colors
-   */
-
   --sonic-silver: hsl(0, 0%, 46%);
   --spanish-gray: hsl(0, 0%, 60%);
   --theme-color: hsl(10, 100%, 57%);
@@ -18,10 +14,6 @@
   --white_10: hsl(0, 0%, 100%, 0.1);
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
-
-  /**
-   * typography
-   */
 
   --ff-poppins: 'Poppins', sans-serif;
   --ff-mulish: 'Mulish', sans-serif;
@@ -38,29 +30,18 @@
   --fw-600: 600;
   --fw-500: 500;
   --fw-400: 400;
-
-  /**
-   * spacing
-   */
-
   --section-padding: 80px;
 
-  /**
-   * shadow
-   */
+  
 
   --shadow: 0 0 20px hsla(0, 0%, 0%, 0.08);
 
-  /**
-   * radius
-   */
+  
 
   --radius-10: 10px;
   --radius-8: 8px;
 
-  /**
-   * transition
-   */
+  
 
   --transition: 0.25s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
@@ -69,11 +50,6 @@
 
 
 
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
@@ -148,13 +124,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 30px; }
 
@@ -273,12 +242,6 @@ body::-webkit-scrollbar-thumb {
 .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 25px); }
 
 
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
-
 .header {
   position: fixed;
   top: 0;
@@ -350,14 +313,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: var(--fw-500);
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
-
 .slide-down-btn { display: none; }
 
 .hero {
@@ -412,14 +367,6 @@ body::-webkit-scrollbar-thumb {
 
 .exp-list .span { font-size: var(--fs-13); }
 
-
-
-
-
-/*-----------------------------------*\
-  #SKILLS
-\*-----------------------------------*/
-
 .skills-banner { display: none; }
 
 .skills { background-color: var(--black); }
@@ -454,14 +401,6 @@ body::-webkit-scrollbar-thumb {
   height: 8px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #TIMELINE
-\*-----------------------------------*/
-
 .timeline-item {
   padding-block: 20px;
   font-size: var(--fs-18);
@@ -476,12 +415,6 @@ body::-webkit-scrollbar-thumb {
 .timeline-item .item-title { color: var(--black); }
 
 
-
-
-
-/*-----------------------------------*\
-  #PRICEING
-\*-----------------------------------*/
 
 .pricing { background-color: var(--cultured); }
 
@@ -531,23 +464,7 @@ body::-webkit-scrollbar-thumb {
   --icon-color: var(--white);
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #NEWS
-\*-----------------------------------*/
-
 .news-card .card-text { margin-block-end: 5px; }
-
-
-
-
-
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
 
 .contact { background-color: var(--cultured); }
 
@@ -615,12 +532,6 @@ textarea.input-field {
 
 
 
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -642,13 +553,6 @@ textarea.input-field {
 
 .social-link { font-size: 17px; }
 
-
-
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
 
 /**
  * responsive for larger than 576px screen
